@@ -39,13 +39,6 @@ CREATE TABLE `COURSES` (
 -- Dumping data for table `COURSES`
 --
 
-INSERT INTO `COURSES` (`EMAIL`, `COURSE_NAME`, `MODULE`, `COMPLETED`) VALUES
-('sheshusheshu035@gmail.com', 'Python', 'basic', 0),
-('sheshusheshu035@gmail.com', 'Python', 'Medium', 1),
-('sheshusheshu035@gmail.com', 'Python', 'Hard', 1),
-('sheshusheshu035@gmail.com', 'C language', 'Easy', 1),
-('sheshusheshu035@gmail.com', 'C language', 'Hard', 0);
-
 -- --------------------------------------------------------
 
 --
@@ -61,9 +54,6 @@ CREATE TABLE `CREDENTIALS` (
 --
 -- Dumping data for table `CREDENTIALS`
 --
-
-INSERT INTO `CREDENTIALS` (`NAME`, `EMAIL`, `PASSWORD`) VALUES
-('Sheshu', 'sheshusheshu035@gmail.com', 's');
 
 --
 -- Indexes for dumped tables
